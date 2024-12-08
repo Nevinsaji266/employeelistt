@@ -11,7 +11,7 @@ const middleware = jsonserver.defaults()
 const router = jsonserver.router('db.json')
 
 //set port for the server
-const PORT = 4000 || process.env.PORT
+const PORT = 3000 || process.env.PORT
 
 //server use middleware
 media.use(middleware)
